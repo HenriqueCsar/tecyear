@@ -12,11 +12,9 @@
 <body>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="../main/index.html">Sistema TecYear
-            </a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item active" style="opacity: 100%;">
                   <a class="nav-link" href="../financial/index.html"><span class="glyphicon glyphicon-envelope"></span><img src="../../images/icons/finance.svg">Financeiro<span class="sr-only">(current)</span></a>
                   </li>
                 <li class="nav-item">
@@ -32,7 +30,41 @@
             </div>
           </nav>
             <span class="loading"><img src="../../images/loading.gif"></span>
-          Finances
+          <div class="finances">
+                <ul class="menu-finances">
+                  <li onclick="devendo()">Devendo</li>
+                  <li onclick="pago()">Pago</li>
+                  <li onclick="clientes_devendo()">Clientes Devendo</li>
+                  <li onclick="vip()">VIP</li>
+                  <li onclick="gastos()">Gastos</li>
+                  <li onclick="investimentos()">Investimentos</li>
+                </ul>
+                
+                <div class="devendo">
+                  TESTE DEVENDO
+                </div>
+
+                <div class="pago">
+                  TESTE PAGO
+                </div>
+
+                <div class="clientes_devendo">
+                  TESTE CLIENTES DEVENDO
+                </div>
+
+                <div class="vip">
+                  TEST VIP
+                </div>
+
+                <div class="gasto">
+                  TEST GASTO
+                </div>
+
+                <div class="investimentos">
+                  TEST INVESTIMENTOS
+                </div>
+          </div>
+        
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

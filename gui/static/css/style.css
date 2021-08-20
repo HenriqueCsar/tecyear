@@ -1,3 +1,6 @@
+*{
+    font-size:9px;
+}
 
 nav{
     border-radius:0px 0px 6px 6px;
@@ -11,8 +14,8 @@ a{
 nav img{
     padding:0px;
     margin:0px;
-    width:30px;
-    height:30px;
+    width:15px;
+    height:15px;
     margin-right:3px;
     margin-bottom: 5px;
 }
@@ -37,8 +40,62 @@ span.loading{
     position:relative;
     top:25vh;
     left:35%;
+    clear:both;
+    opacity:30%;
 }
 
-#sistema_hide{
+#sistema_menu{
     display: none;
 }
+
+#sistema_menu a{
+}
+
+#main{
+    font-size:20px;
+}
+
+.finances{
+    display: none;
+    border:1px solid rgb(148, 146, 146);
+    height:80vh;
+}
+
+.container-1{
+    border:1px solid rgb(114, 113, 113);
+    height:100vh;
+}
+
+.container-1 div{
+    float:left;
+    border:1px solid black;
+    width:calc(100%/3);
+    height: 100%;
+}
+
+.menu-finances{
+    float:left;
+}
+
+
+.menu-finances li{
+    list-style: none;
+}
+
+.menu-finances li {
+    float:left;
+    cursor:pointer;
+}
+
+.menu-finances li a{
+    color:black;
+}
+
+
+/* PARTE DE AMOSTRA DA FINANCES */
+
+.devendo, .pago, .clientes_devendo, .vip, .gasto, .investimentos{
+    clear:both;
+    display:none;
+}
+
