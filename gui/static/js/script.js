@@ -2,6 +2,8 @@ setTimeout(function() {
         $('#sistema_menu').show()
         $('.loading').hide()
         $('.finances').show()
+        $('.fundo-main').show()
+        $('.footer-creditos').show()
     }, 2000
 );
 
