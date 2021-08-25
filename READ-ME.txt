@@ -3,7 +3,7 @@ EQUIPE DE 200-500 PESSOAS, SEDE EM VITÓRIA-ES, VILA VELHA-ES, SALVADOR-BH, BELO
 
 PRECISAVAM DE UM PROGRAMA PARA O SISTEMA DELES, FINANCEIRO, TECNOLÓGICO(MANUTENÇÃO E SUPORTE), RH, CLIENTES(ALTOS E BAIXOS, LISTAGEM DO ULTIMO PRESTADO PARA O MAIS ANTIGO), CONTRATADOS.
 
-1 - FINANCEIRO: Pessoas a pagar, pessoas paga, clientes devendo, clientes que pagam antecipados, sessões de investimentos empresarial, gasto da empresa por mês.
+1 - FINANCEIRO: Pessoas a pagar, pessoas paga, clientes devendo, clientes que pagam antecipados, sessões de investimentos empresarial, gasto da empresa por mês, gerar arquivo pdfs. marcagem de prioridade, ordenação
 2 - TECNOLÓGICO: Sessão para o setor TECNOLÓGICO adicionar o que é necessário gastar, sessão para adicionar equipamentos com imagens(processador, cooler, fonte(tudo isso chegar para o setor financeiro)), esquema para suportes(como um forum para adicionar algumas coisas para depois um outro suporte apenas pesquisa e ver que já existe resolusão para aquele erro)
 3 - RH: Pessoas contratadas(tempo de contratação, o que faz), pessoas demitidas(tempo de demissão), pessoas a serem contratadas(experiencias), sessão para pessoas a serem contratadas com gráficos com relação a sua prioridade.
 4 - CLIENTES: Novos clientes(que tipo de contrato e fez, quanto tempo de contrato ele pegou), clientes antigos(tempo de contrato, o que foi contratado na empresa, estimativa de volta?)

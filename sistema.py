@@ -8,4 +8,6 @@ class system:
     def classs():
         pass
 
+    
+
 eel.start('/pages/main/index.html')

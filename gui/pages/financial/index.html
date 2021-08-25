@@ -11,20 +11,20 @@
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark" id="navbarid">
             <div class="collapse navbar-collapse">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active" style="opacity: 100%;">
-                  <a class="nav-link" href="../financial/index.html"><span class="glyphicon glyphicon-envelope"></span><img src="../../images/icons/finance.svg">Financeiro<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" style="color:white;" href="../financial/index.html"><span class="glyphicon glyphicon-envelope"></span><img src="../../images/icons/finance.svg">Financeiro<span class="sr-only">(current)</span></a>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><img src="../../images/icons/rh.svg">Recursos Humanos</a>
+                  <a class="nav-link" style="color:white;" href="#"><img src="../../images/icons/rh.svg">Recursos Humanos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><img src="../../images/icons/clientes.svg">Clientes</a>
+                  <a class="nav-link" style="color:white;" href="#" tabindex="-1" aria-disabled="true"><img src="../../images/icons/clientes.svg">Clientes</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link"><img src="../../images/icons/tecnologia.svg">Tecnológico</a>
+                  <a style="color:white;" href="#" class="nav-link"><img src="../../images/icons/tecnologia.svg">Tecnológico</a>
                 </li>
               </ul>
             </div>
@@ -38,7 +38,16 @@
                   <li onclick="vip()">VIP</li>
                   <li onclick="gastos()">Gastos</li>
                   <li onclick="investimentos()">Investimentos</li>
+                  <li class="money" style="margin-left:600px;">R$ 25.000</li>
                 </ul>
+                <div class="resultado_das_ultimas_transacoes">
+                  <div class="mostruario_de_transacoes">
+                    <ul>
+                      <li>Jr Tecnologia<span class="badge badge-danger">R$ 200.0</span></li>
+                    </ul>
+                  </div>
+                </div>
+
                 
                 <div class="espaco">
                   <div class="calc">
@@ -46,14 +55,42 @@
                   </div>
                   <div class="devendo">
                     
-                    <div class="listagem-devedores">
-                      <ul class="botoes"> 
-                        <li><button class="btn btn-success">Inserir</button></li>
-                        <li><button class="btn btn-danger">Excluir</button></li>
-                      </ul>
-                    </div>
                     <div class="local-devendo">
-                        
+                        <div class="card">
+                          <div class="card-header">
+                            <div class="listagem-devedores">
+                              <ul class="botoes"> 
+                                <li><button id="inserir" class="btn btn-dark">Inserir</button></li>
+                                <li><button class="btn btn-dark">Excluir</button></li>
+                              </ul>
+                            </div>
+                           <h5>Empresas que devemos</h5>
+                          </div>
+                          <div class="card-body">
+                            <div id="test" class="delimitado-empresas">
+                              JR Informática 
+                            </div>  
+                          </div>
+                           <div class="card-body">
+                            <div class="delimitado-empresas">
+                              HQ TECH
+                            </div>  
+                          </div>
+                           <div class="card-body">
+                            <div class="delimitado-empresas">
+                              TECH Jr
+                            </div>  
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="box_mostruario_de_devendo">
+                      <h5>JR Informatica</h5>
+                      <div class="parte_de_resultado">
+                        <span style="font-size:17px;">Mude a composição para verde<br>Vencimento: <span style="font-size:14px;color:red;">24/08/2021</span></span>
+                        <br>
+                        <center><button class="btn btn-success" style="font-size:20px; position:relative; top:100px;">PAGAR</button></center>
+                    </div>
                     </div>
                   
                   </div>

@@ -4,6 +4,7 @@ setTimeout(function() {
         $('.finances').show()
         $('.fundo-main').show()
         $('.footer-creditos').show()
+        $('.local-main').show()
     }, 2000
 );
 
@@ -17,6 +18,7 @@ function devendo(){
     $('.vip').hide()
     $('.gasto').hide()
     $('.investimentos').hide()
+
 }
 
 function pago(){
@@ -63,3 +65,30 @@ function clientes_devendo(){
     $('.investimentos').hide()
     $('.clientes_devendo').show()
 }
+
+
+$('.card-body').hover(function(){
+    $('.box_mostruario_de_devendo').show()
+},function(){
+    $('.box_mostruario_de_devendo').hide()
+});
+
+
+$('.box_mostruario_de_devendo').hover(function(){
+    $('.box_mostruario_de_devendo').show()
+}, function(){
+    $('.box_mostruario_de_devendo').hide()
+});
+
+
+$('.money').hover(function(){
+    $('.resultado_das_ultimas_transacoes').show()
+},function(){
+    $('.resultado_das_ultimas_transacoes').hide()
+});
+
+$('.resultado_das_ultimas_transacoes').hover(function(){
+    $('.resultado_das_ultimas_transacoes').show()
+},function(){
+    $('.resultado_das_ultimas_transacoes').hide()
+});
