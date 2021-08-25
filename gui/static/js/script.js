@@ -5,6 +5,7 @@ setTimeout(function() {
         $('.fundo-main').show()
         $('.footer-creditos').show()
         $('.local-main').show()
+        $('.nome_da_empresa h4').show()
     }, 2000
 );
 

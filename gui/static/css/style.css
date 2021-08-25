@@ -86,6 +86,7 @@ span.loading{
     height:90vh;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 12px;
+    padding:10px 0px 0px 20px;
 }
 
 .footer-creditos{
@@ -94,7 +95,35 @@ span.loading{
     display:none;
 }
 
+.nome_da_empresa h4{
+    position:absolute;
+    top:70%;
+    color:white;
+    font-size:50px;
+    margin-left:20px;
+    text-shadow: 1px 1px 5px black;
+    right:20%;
+    cursor:pointer;
+    display:none;
+    transition: font-size 0.75s;
+}
 
+.nome_da_empresa h4:hover{
+    color:antiquewhite;
+    font-size:55px;
+}
+
+.ultimas_alteracoes{
+    width:60%;
+    height:97%;
+    background-color:#f1f1f1;
+    border-radius:6px;
+}
+
+#card-main{
+    margin:0px;
+    padding:0px;
+}
 
 /* FINANCES */
 .finances{
@@ -160,13 +189,17 @@ span.loading{
     list-style:none;
 }
 
+.botoes li button{
+    margin-top:2.5px;
+}
+
 .listagem-devedores{
     float:right;
 }
 
 .local-devendo{
     float:left;
-    width:30%;
+    width:50%;
     height:60vh;
     margin-top:10px;
 }
